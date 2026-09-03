@@ -34,6 +34,13 @@ body {
       gap: 30px;
       list-style: none;
     }
+
+    .centro li a{
+      color: white;
+      text-decoration: none;
+    }
+
+
     .links-centro a {
       color: #94a3b8;
       text-decoration: none;
@@ -90,7 +97,7 @@ body {
       color: white;
     }
     .testar {
-      background-color: #3e88ff;
+      background-color: #192841;
       color: white;
       text-decoration: none;
       padding: 10px 20px;
@@ -102,6 +109,70 @@ body {
       background-color: #2563eb;
     }
 
+    #section1 {
+      display: flex;
+    height: 5rem;
+    width:100%;
+    justify-content: center;
+      padding-top: 10rem;
+      align-items: center;
+    gap: 30px;
+    }
+
+    .batata2{
+      color: #2563eb;
+      border-radius: 20px;
+      border: 2px solid rgb(54, 92, 141) ;
+      background-color: #192841af;
+      width: 155px;
+      padding-left: 7px ;
+
+
+    }
+
+    .div1{
+        justify-content: center;
+      padding-top: 3rem;
+      padding-left: 5rem;
+      border-radius: 6px;  
+      
+    }
+    .ul1{
+      list-style-type: none;
+      gap: 2rem;
+      display: flex;
+      padding-top: 1rem;
+    }
+
+    .ul1 li a{
+         color: rgb(73, 62, 228);
+      text-decoration: none;
+      border-radius: 20px;
+      border: 2px solid rgba(10, 68, 91, 0.822) ;
+      background-color: #1a2940d7;
+      width: 220px;
+      padding-left: 5px ;
+    }
+   
+    #div2{
+    border-radius:5px ;
+    border: 2px solid blue;
+    padding: 35px;
+    border-top-width: 2rem;
+    
+    }
+  
+
+    .divdadiv{
+      border: 2px dotted blue;
+      display: flex;
+      padding: 1rem;
+      width: 20rem;
+      justify-content: center;
+      border-radius: 5px;
+      
+      
+    }
 
  
 
