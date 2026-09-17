@@ -95,19 +95,7 @@ body {
     }
     .btn-entrar:hover {
       color: white;
-    }
-    .testar {
-      background-color: #192841;
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 6px;
-      font-size: 15px;
-      font-weight: bold;
-    }
-    .btn-testar:hover {
-      background-color: #2563eb;
-    }
+    }  
 
     #section1 {
       display: flex;
@@ -170,31 +158,60 @@ body {
       width: 20rem;
       justify-content: center;
       border-radius: 5px;
-      
-      
+    }
+    .feijoada{
+     display: flex;
+     background-color:rgb(36, 36, 109) ;
+     border-radius:20px solid rgb(73, 73, 164) ;
+     padding:5rem;
+    margin-top: 20px;
+    
+    .mixer{
+        background-color:rgb(43, 43, 90) ;
+        border-radius:20px solid rgb(73, 73, 164) ;
+        
     }
 
- 
-
-    /* display: flex;
+    }
+    .salada-de-frutas{
+    display: flex;
+    padding:20px;
+    margin-top: 200px; 
+    gap: 10rem;
+    padding-left: 5rem;
     justify-content: center;
-    flex-direction: column;
-    gap: 1rem; */
-
-/* 
-#banner-principal{
-    margin-top: 1rem;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 1rem;
-}
-#divisinha{
-    margin-top: 1rem;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 1rem;
-}
-.divisinha2 p {
-    background-color: blueviolet;
+    }
+    .abacaxi{
+    width: 250px;
+    height: 250px;
+    background-color: #182445;
+    padding-left: 5rem;
+    border-radius: 10px;
+   
+    }
     
-} */
+    .maracuja{
+    width: 250px;
+    height: 250px;
+    background-color: #182445;
+    padding-left: 5rem;
+    border-radius: 10px;
+    }
+
+    .ameixa{
+    width: 250px;
+    height: 250px;
+    background-color: #182445;
+    padding-left: 5rem;
+    border-radius: 10px;
+    }
+
+    .uva{
+    width: 1000px;
+    height:50px;
+    background-color: #182445;
+    padding-left: 5rem;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    }

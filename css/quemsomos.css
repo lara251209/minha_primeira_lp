@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body {
+      background-color: #32466f;
+    }
+
+
+    .batata {
+      background-color: #182445; 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      height: 70px;
+    }
+
+    .logo {
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .logocor{
+        color: #6c7f9a;
+
+    }
+
+    
+    .centro {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+
+    .centro li a{
+      color: white;
+      text-decoration: none;
+    }
+
+
+    .links-centro a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .links-centro a:hover {
+      color: white;
+    }
+
+    
+    .dropdown {
+      position: relative; 
+    }
+    
+    .dropdown-content {
+      display: none; 
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      min-width: 220px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+      border-radius: 6px;
+      padding: 10px 0;
+      margin-top: 10px;
+      list-style: none;
+    }
+
+    .dropdown-content a {
+      color: #5c708e; 
+      padding: 12px 20px;
+      display: block;
+      font-size: 14px;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f5f9;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .botoes-direita {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .entrar {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .btn-entrar:hover {
+      color: white;
+    }
+   
+
+    #section1 {
+      display: flex;
+    height: 5rem;
+    width:100%;
+    justify-content: center;
+      padding-top: 10rem;
+      align-items: center;
+    gap: 30px;
+    }
+
+    .batata2{
+      color: #2563eb;
+      border-radius: 20px;
+      border: 2px solid rgb(54, 92, 141) ;
+      background-color: #192841af;
+      width: 155px;
+      padding-left: 7px ;
+
+
+    }
+
+    .div1{
+        justify-content: center;
+      padding-top: 3rem;
+      padding-left: 5rem;
+      border-radius: 6px;  
+      
+    }
+    .ul1{
+      list-style-type: none;
+      gap: 2rem;
+      display: flex;
+      padding-top: 1rem;
+    }
+
+    .ul1 li a{
+         color: rgb(73, 62, 228);
+      text-decoration: none;
+      border-radius: 20px;
+      border: 2px solid rgba(42, 33, 115, 0.822) ;
+      background-color: #1a2940d7;
+      width: 220px;
+      padding-left: 5px ;
+    }
+   
+    #div2{
+    border-radius:5px ;
+    border: 2px solid rgb(8, 8, 134);
+    padding: 35px;
+    border-top-width: 2rem;
+    
+    }
+  
+
+    .divdadiv{
+      border: 2px dotted rgb(11, 11, 113);
+      display: flex;
+      padding: 1rem;
+      width: 20rem;
+      justify-content: center;
+      border-radius: 5px;
+      
+      
+    }
+
+    .div-quemsomos {
+  display: flex;
+  border: 3px solid rgb(7, 15, 95);
+  background-color: rgb(12, 18, 95);
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.div-quemsomos2 {
+  display: flex;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.quemsomos{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 3px solid rgb(47, 15, 141);
+    background-color: rgb(15, 19, 125);
+    border-radius: 20px;
+}
+.titulo-quemsomos{
+  margin-top: 15px;
+  color: rgb(254, 254, 254);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.p-quemsomos{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+}
+.div-quemsomos3 {
+  display: flex;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.quemsomos2{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 3px solid rgb(49, 18, 142);
+    background-color: rgb(13, 11, 141);
+    border-radius: 20px;
+}
+.titulo-objetivos{
+  margin-top: 15px;
+  color: rgb(251, 251, 251);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.p-objetivos{
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+}
